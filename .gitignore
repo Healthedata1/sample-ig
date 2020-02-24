@@ -20,3 +20,8 @@ Thumbs.db
 # backup files #
 ################
 *.bak
+
+
+#custom bash script #
+#######################
+publish.sh
