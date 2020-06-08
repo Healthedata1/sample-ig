@@ -6,13 +6,6 @@ produces
 <div style="display:inline-block">
 <p>### Introduction</p>
 ...
-if your markdown start with a heading the add a line break or a comment- that solves the rendering issue-->
-### Introduction
-
-- Introductory guidance on myExtension
-
-[foo](3.html)
-
-*go markdown!!!*
-
-![](https://cdn0.iconfinder.com/data/icons/octicons/1024/markdown-512.png)
+if your markdown start with a heading the add a line break that solves the rendering issue-->
+### Notes
+Usage notes on myExtension

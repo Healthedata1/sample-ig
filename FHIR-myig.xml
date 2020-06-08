@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               url="http://somewhere.org/fhir/uv/myig"
+               ciUrl="http://hl7.org/fhir/ig/HL7/myig"
+               defaultWorkgroup=""
+               defaultVersion="current"
+               xsi:noNamespaceSchemaLocation="../schemas/specification.xsd"
+               ballotUrl="http://hl7.org/fhir/yyyyMmm/myig.html">
+   <version code="current" url="http://hl7.org/fhir/ig/HL7/myig"/>
+   <version code="0.1.0" url="http://hl7.org/fhir/yyyyMmm/myig.html"/>
+   <artifactPageExtension value="-definitions"/>
+   <artifactPageExtension value="-examples"/>
+   <artifactPageExtension value="-mappings"/>
+   <artifact name="My Favorite Patient Profile"
+             key="StructureDefinition-mypatient"
+             id="StructureDefinition/mypatient"/>
+   <artifact name="Simple patient example"
+             key="Patient-example"
+             id="Patient/example"/>
+   <artifact name="History" key="Bundle-h1" id="Bundle/h1"/>
+   <artifact name="" key="Binary-example" id="Binary/example"/>
+   <artifact name="" key="Library-example" id="Library/example"/>
+   <artifact name="My Observation Profile"
+             key="StructureDefinition-myObservation"
+             id="StructureDefinition/myObservation"/>
+   <artifact name="MyExtension"
+             key="StructureDefinition-ext-myExtension"
+             id="StructureDefinition/ext-myExtension"/>
+   <artifact name="MyPractitionerName"
+             key="StructureDefinition-mypractitioner"
+             id="StructureDefinition/mypractitioner"/>
+   <page name="(NA)" key="NA"/>
+   <page name="(many)" key="many"/>
+   <page name="Table of Contents" key="toc"/>
+   <page name="MyIG Home Page" key="index"/>
+   <page name="Background" key="background"/>
+   <page name="Detailed Specification" key="spec"/>
+   <page name="Useful Downloads" key="downloads"/>
+   <page name="IG Change History" key="changes"/>
+   <page name="Artifacts Summary" key="artifacts"/>
+</specification>
