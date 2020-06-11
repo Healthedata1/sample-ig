@@ -6,7 +6,7 @@ do
  case "${option}"
  in
 
- t) RECONFIG=1;;
+ d) RECONFIG=1;;
  t) NA='N/A';;
  w) WATCH=1;;
  o) PUB=1;;
@@ -27,7 +27,7 @@ echo '-w parameter for using watch on igpublisher from source default is off = '
 echo '-o parameter for running previous version of the igpublisher= ' $PUB
 echo '-p parameter for downloading latest version of the igpublisher from source = ' $UPDATE
 echo '-h parameter for downloading HL7 ig template from source = ' $LOAD_HL7TEMPLATE
-echo '-h parameter for downloading BASE ig template from source = ' $LOAD_BASETEMPLATE
+echo '-b parameter for downloading BASE ig template from source = ' $LOAD_BASETEMPLATE
 echo '-u parameter for downloading test ig template from source or file= ' $TEST_TEMPLATE
 echo ' current directory =' $PWD
 echo "================================================================="

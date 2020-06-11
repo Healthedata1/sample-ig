@@ -1,5 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <h4>
+		inserted introductory xhtml text
+	</h4>
+
 	<p>
     Introductory guidance on the patient profile
   </p>
+
+	<img src="https://image.flaticon.com/icons/png/512/29/29533.png" alt="flaticon xhtml icon" width="500" height="600"></img>
 </div>
